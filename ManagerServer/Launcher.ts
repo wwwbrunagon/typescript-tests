@@ -2,7 +2,6 @@ import { Server } from './Server'
 
 class Launcher {
 
-    //instance variables
     name: string;
     server: Server;
 
