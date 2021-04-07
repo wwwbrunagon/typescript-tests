@@ -11,4 +11,5 @@ var Launcher = /** @class */ (function () {
     };
     return Launcher;
 }());
+
 new Launcher().launchApp();
