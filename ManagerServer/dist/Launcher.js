@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-var Server_1 = require("./Server");
+var Server_1 = require("./Server/Server");
 var Launcher = /** @class */ (function () {
     function Launcher() {
         this.server = new Server_1.Server();

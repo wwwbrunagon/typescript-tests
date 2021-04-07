@@ -1,15 +1,15 @@
-import { Server } from './Server'
+import { Server } from './Server/Server'
 
 class Launcher {
 
-    name: string;
-    server: Server;
+    public name: string;
+    public server: Server;
 
     constructor() {
         this.server = new Server();
     }
 
-    launchApp() {
+    public launchApp() {
         console.log('started app');
         this.server.createServer();
     }
